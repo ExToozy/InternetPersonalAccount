@@ -1,0 +1,1482 @@
+﻿<Window
+    x:Class="ViewLayer.Views.MainMenuAccountView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ViewLayer.Views"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainMenuAccountView"
+    Width="1000"
+    Height="600"
+    Background="#0c5eaa"
+    MouseDown="Grid_MouseDown"
+    ResizeMode="NoResize"
+    WindowStyle="None"
+    mc:Ignorable="d">
+
+
+    <Grid>
+
+        <Button
+            Name="CloseBtn"
+            Margin="5"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Background="#0c5eaa"
+            Click="CloseBtn_Click">
+            <Button.Content>
+                <materialDesign:PackIcon Margin="3" Kind="Close" />
+            </Button.Content>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" CornerRadius="10">
+                                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Button
+            Name="MinimazeBtn"
+            Margin="5,5,32,5"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Background="#0c5eaa"
+            Click="MinimazeBtn_Click">
+            <Button.Content>
+                <materialDesign:PackIcon Margin="3" Kind="Minus" />
+            </Button.Content>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" CornerRadius="10">
+                                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+        <TabControl Margin="0,25,0,0">
+
+            <TabControl.Resources>
+                <Style TargetType="TabItem">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TabItem">
+                                <Border
+                                    Name="Border"
+                                    Margin="0"
+                                    BorderBrush="Gainsboro"
+                                    CornerRadius="5 5 0 0">
+                                    <ContentPresenter
+                                        x:Name="ContentPresenter"
+                                        Margin="10"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center">
+                                        <ContentPresenter.Content>
+                                            <TextBlock
+                                                Name="TextBlock"
+                                                FontSize="14"
+                                                FontWeight="SemiBold"
+                                                Text="{TemplateBinding Header}" />
+                                        </ContentPresenter.Content>
+                                    </ContentPresenter>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter TargetName="Border" Property="Background" Value="white" />
+                                        <Setter TargetName="TextBlock" Property="Foreground" Value="Black" />
+
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="False">
+                                        <Setter TargetName="Border" Property="Background" Value="#0c5eaa" />
+                                        <Setter TargetName="TextBlock" Property="Foreground" Value="White" />
+                                    </Trigger>
+
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TabControl.Resources>
+
+            <TabItem Header="Личный кабинет">
+                <Grid Background="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="4*" />
+                    </Grid.RowDefinitions>
+                    <TextBlock
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="32"
+                        FontWeight="Bold"
+                        Text="Личный кабинет" />
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel
+                            Grid.Column="0"
+                            Margin="50,20,30,100"
+                            Background="#ebf2f9">
+                            <TextBlock
+                                Margin="33,58,0,15"
+                                FontSize="26"
+                                FontWeight="Bold"
+                                Foreground="#0c5eaa"
+                                Text="Личные данные" />
+                            <TextBlock
+                                Margin="33,0,0,8"
+                                FontSize="20"
+                                FontWeight="Medium"
+                                Foreground="#9f9f9f"
+                                Text="ФИО" />
+                            <TextBlock
+                                Margin="33,0,0,30"
+                                FontSize="20"
+                                FontWeight="Medium"
+                                Text="{Binding UserAccount.FullName}" />
+                            <TextBlock
+                                Margin="33,0,0,8"
+                                FontSize="20"
+                                FontWeight="Medium"
+                                Foreground="#9f9f9f"
+                                Text="Номер телефона" />
+                            <TextBlock
+                                Margin="33,0,0,8"
+                                FontSize="20"
+                                FontWeight="Medium"
+                                Text="{Binding UserAccount.PhoneNumber}" />
+
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="0,20,0,0">
+                            <TextBlock
+                                Margin="50,0,0,10"
+                                FontSize="26"
+                                FontWeight="Bold"
+                                Foreground="#0c5eaa"
+                                Text="Подлючить рассылку" />
+                            <StackPanel Height="40" Margin="50,0,60,10" Orientation="Horizontal">
+                                <TextBox
+                                    Height="35"
+                                    Name="EmailTextBox"
+                                    Width="350"
+                                    Padding="5"
+                                    materialDesign:HintAssist.Foreground="#A9A9A9"
+                                    materialDesign:HintAssist.Hint="Введите почту для рассылки"
+                                    materialDesign:HintAssist.IsFloating="True"
+                                    Background="#F3F6F9"
+                                    BorderBrush="#BEC8D2"
+                                    FontSize="16"
+                                    FontWeight="Medium"
+                                    Foreground="Black"
+                                    Style="{StaticResource MaterialDesignOutlinedTextBox}" />
+                                <Button
+                                    Name="ConnectOrChangeEmailAdressBtn"
+                                    Width="30"
+                                    Height="30"
+                                    Margin="10,0,10,0"
+                                    Background="#0c5eaa"
+                                    Click="ConnectOrChangeEmailAdressBtn_Click"
+                                    FontSize="16"
+                                    FontWeight="Bold"
+                                    Foreground="Blue">
+                                    <Button.Content>
+                                        <TextBlock
+                                            Margin="5"
+                                            Foreground="White"
+                                            Text="✓" />
+                                    </Button.Content>
+                                    <Button.Style>
+                                        <Style TargetType="Button">
+                                            <Setter Property="Template">
+                                                <Setter.Value>
+                                                    <ControlTemplate TargetType="Button">
+                                                        <Border Background="{TemplateBinding Background}" CornerRadius="17">
+                                                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                        </Border>
+                                                    </ControlTemplate>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Style>
+                                    </Button.Style>
+                                </Button>
+                            </StackPanel>
+                            <CheckBox
+                                Name="MailingRadioBtn"
+                                Margin="50,0,60,10"
+                                Click="MailingRadioBtn_Click"
+                                Content="Рассылка выключена"
+                                FontSize="20"
+                                FontWeight="Medium"
+                                Foreground="#9f9f9f" />
+                            <TextBlock
+                                Margin="50,30,0,10"
+                                FontSize="26"
+                                FontWeight="Bold"
+                                Foreground="#0c5eaa"
+                                Text="Текущий тариф" />
+                            <TextBlock
+                                Margin="50,0,0,10"
+                                FontSize="20"
+                                FontWeight="Medium"
+                                Text="{Binding ConnectedUserTariff.Name}" />
+                            <TextBlock
+                                Margin="50,0,0,10"
+                                FontSize="26"
+                                FontWeight="Bold"
+                                Foreground="#0c5eaa"
+                                Text="Баланс" />
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock
+                                    Margin="50,0,0,0"
+                                    FontSize="20"
+                                    FontWeight="Medium"
+                                    Text="{Binding UserAccount.Balance}" />
+                                <TextBlock
+                                    Margin="5,0,0,0"
+                                    FontSize="20"
+                                    FontWeight="Medium"
+                                    Text="руб" />
+                            </StackPanel>
+
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Тарифы">
+                <Grid Background="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="4*" />
+                    </Grid.RowDefinitions>
+                    <TextBlock
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="32"
+                        FontWeight="Bold"
+                        Text="Тарифы" />
+                    <Grid Grid.Row="1">
+                        <ListView
+                            Height="300"
+                            Margin="30,0,20,100"
+                            d:ItemsSource="{d:SampleData ItemCount=5}"
+                            ItemsSource="{Binding Tariffs}"
+                            ScrollViewer.PanningMode="None"
+                            SelectedItem="{Binding SelectedTariff}"
+                            SelectionMode="Single">
+                            <ListView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Margin="0,0,0,0" Orientation="Horizontal" />
+                                </ItemsPanelTemplate>
+                            </ListView.ItemsPanel>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Border
+                                        Width="203"
+                                        Height="186"
+                                        Background="AliceBlue"
+                                        BorderBrush="LightGray"
+                                        BorderThickness="2"
+                                        CornerRadius="15">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="1.2*" />
+                                                <RowDefinition Height="1*" />
+                                                <RowDefinition Height="1*" />
+                                            </Grid.RowDefinitions>
+
+                                            <TextBlock
+                                                Grid.Row="0"
+                                                Margin="10,10"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Bottom"
+                                                FontSize="20"
+                                                Foreground="#14395B"
+                                                Text="{Binding Name}"
+                                                TextWrapping="WrapWithOverflow" />
+
+                                            <StackPanel
+                                                Grid.Row="1"
+                                                Margin="10,10"
+                                                VerticalAlignment="Center"
+                                                Orientation="Horizontal">
+                                                <TextBlock
+                                                    FontSize="14"
+                                                    FontWeight="SemiBold"
+                                                    Foreground="#14395B"
+                                                    Text="{Binding ConnectionSpeed}" />
+                                                <TextBlock
+                                                    FontSize="14"
+                                                    FontWeight="SemiBold"
+                                                    Foreground="#14395B"
+                                                    Text=" Мбит/сек " />
+                                            </StackPanel>
+                                            <Border
+                                                Grid.Row="2"
+                                                Background="#0C5EAA"
+                                                CornerRadius="0 0 15 15">
+                                                <StackPanel
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"
+                                                    Orientation="Horizontal">
+                                                    <TextBlock
+                                                        FontSize="20"
+                                                        FontWeight="SemiBold"
+                                                        Foreground="White"
+                                                        Text="{Binding Price}" />
+                                                    <TextBlock
+                                                        FontSize="20"
+                                                        FontWeight="SemiBold"
+                                                        Foreground="White"
+                                                        Text=" руб/мес " />
+                                                </StackPanel>
+                                            </Border>
+
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                        <Button
+                            Name="ConnectSelectedTarifBtn"
+                            Height="40"
+                            Margin="0,10,0,50"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Bottom"
+                            Background="#0c5eaa"
+                            Click="ConnectSelectedTariffBtn_Click"
+                            FontSize="20">
+                            <Button.Content>
+                                <TextBlock
+                                    Margin="10,0,10,0"
+                                    Foreground="White"
+                                    Text="Подлючить выбранный тариф" />
+                            </Button.Content>
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Background="{TemplateBinding Background}" CornerRadius="8">
+                                                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Пополнение баланса">
+                <Grid Background="White">
+                    <Border
+                        Grid.Row="1"
+                        Margin="50"
+                        Padding="20"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Background="#EBF2F9"
+                        CornerRadius="15">
+                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
+                            <TextBlock
+                                Margin="0,0,0,25"
+                                HorizontalAlignment="Center"
+                                FontSize="24"
+                                FontWeight="Bold"
+                                Foreground="#0C5EAA"
+                                Text="Пополнение" />
+                            <StackPanel
+                                Width="300"
+                                Margin="0,0,0,25"
+                                Orientation="Horizontal">
+                                <TextBlock
+                                    Margin="0,0,150,0"
+                                    HorizontalAlignment="Left"
+                                    FontSize="20"
+                                    FontWeight="Bold"
+                                    Foreground="#14395B"
+                                    Text="Баланс:" />
+                                <TextBlock
+                                    HorizontalAlignment="Right"
+                                    FontSize="20"
+                                    FontWeight="Bold"
+                                    Foreground="#14395B"
+                                    Text="{Binding UserAccount.Balance}" />
+                                <TextBlock
+                                    HorizontalAlignment="Right"
+                                    FontSize="20"
+                                    FontWeight="Bold"
+                                    Foreground="#14395B"
+                                    Text=" руб" />
+                            </StackPanel>
+                            <TextBox
+                                Padding="10"
+                                materialDesign:HintAssist.Foreground="#A9A9A9"
+                                materialDesign:HintAssist.Hint="Введите сумму"
+                                materialDesign:HintAssist.IsFloating="True"
+                                Background="#F3F6F9"
+                                BorderBrush="#BEC8D2"
+                                FontSize="16"
+                                FontWeight="Medium"
+                                Foreground="Black"
+                                Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                                Text="{Binding RefillBalanceValueFromTextbox}" />
+                            <TextBlock />
+                            <Button
+                                Name="RefillBtn"
+                                Height="60"
+                                Margin="0,10,0,5"
+                                Background="#0c5eaa"
+                                Click="RefillBtn_Click"
+                                FontSize="20"
+                                FontWeight="Bold">
+                                <Button.Content>
+                                    <TextBlock Foreground="White" Text="Пополнить" />
+                                </Button.Content>
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="Button">
+                                                    <Border Background="{TemplateBinding Background}" CornerRadius="8">
+                                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                    </Border>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </TabItem>
+            <TabItem Header="История платежей">
+                <Grid Background="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="3*" />
+                    </Grid.RowDefinitions>
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock
+                            Margin="20"
+                            HorizontalAlignment="Center"
+                            FontSize="24"
+                            FontWeight="Bold"
+                            Foreground="#0C5EAA"
+                            Text="Фильтрация по дате" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBox
+                                Name="FitlerPaymentTextBox"
+                                Width="300"
+                                Margin="10"
+                                Padding="5"
+                                materialDesign:HintAssist.Foreground="#A9A9A9"
+                                materialDesign:HintAssist.Hint="Введите дату"
+                                materialDesign:HintAssist.IsFloating="True"
+                                Background="#F3F6F9"
+                                BorderBrush="#BEC8D2"
+                                FontSize="16"
+                                FontWeight="Medium"
+                                Foreground="Black"
+                                Style="{StaticResource MaterialDesignOutlinedTextBox}" />
+                            <TextBlock />
+                            <Button
+                                Name="FilterPaymentsByDateBtn"
+                                Width="100"
+                                Height="35"
+                                Margin="10,0,10,0"
+                                Background="#0c5eaa"
+                                Click="FilterPaymentsByDateBtn_Click"
+                                FontSize="16"
+                                FontWeight="Bold">
+                                <Button.Content>
+                                    <TextBlock
+                                        Margin="10,0,10,0"
+                                        Foreground="White"
+                                        Text="Поиск" />
+                                </Button.Content>
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="Button">
+                                                    <Border Background="{TemplateBinding Background}" CornerRadius="17">
+                                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                    </Border>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+                            <Button
+                                Name="ResetFilterPaymentsBtn"
+                                Width="100"
+                                Height="35"
+                                Background="#474A4D"
+                                Click="ResetFilterPaymentsBtn_Click"
+                                FontSize="16"
+                                FontWeight="Bold">
+                                <Button.Content>
+                                    <TextBlock
+                                        Margin="10,0,10,0"
+                                        Foreground="White"
+                                        Text="Сброс" />
+                                </Button.Content>
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="Button">
+                                                    <Border Background="{TemplateBinding Background}" CornerRadius="17">
+                                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                    </Border>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+                        </StackPanel>
+                    </StackPanel>
+                    <Border
+                        Grid.Row="1"
+                        Margin="200,0,200,40"
+                        Background="#F9F9F9"
+                        CornerRadius="10">
+                        <StackPanel Margin="15,10,15,0">
+                            <Grid Margin="0,0,0,5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />
+
+                                    <ColumnDefinition Width="1*" />
+
+                                </Grid.ColumnDefinitions>
+                                <TextBlock
+                                    Grid.Column="0"
+                                    Margin="20,0"
+                                    FontSize="14"
+                                    FontWeight="SemiBold"
+                                    Foreground="#C7C7C7"
+                                    Text="Дата" />
+                                <TextBlock
+                                    Grid.Column="1"
+                                    HorizontalAlignment="Center"
+                                    FontSize="14"
+                                    FontWeight="SemiBold"
+                                    Foreground="#C7C7C7"
+                                    Text="Операция" />
+
+                                <TextBlock
+                                    Grid.Column="2"
+                                    HorizontalAlignment="Center"
+                                    FontSize="14"
+                                    FontWeight="SemiBold"
+                                    Foreground="#C7C7C7"
+                                    Text="Сумма" />
+                            </Grid>
+                            <Border Height="1" Background="#E8E8E8" />
+                            <ListView
+                                Width="Auto"
+                                Height="330"
+                                d:ItemsSource="{d:SampleData ItemCount=100}"
+                                ItemsSource="{Binding Payments}"
+                                ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Width="560" HorizontalAlignment="Left">
+                                            <Grid Margin="-5,0,0,5">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="1*" />
+                                                    <ColumnDefinition Width="1*" />
+                                                    <ColumnDefinition Width="1*" />
+
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock
+                                                    Grid.Column="0"
+                                                    Margin="20,0"
+                                                    FontSize="14"
+                                                    FontWeight="Regular"
+                                                    Foreground="#7B7B7B"
+                                                    Text="{Binding DateOnly}" />
+                                                <TextBlock
+                                                    Grid.Column="1"
+                                                    HorizontalAlignment="Center"
+                                                    FontSize="14"
+                                                    FontWeight="Regular"
+                                                    Foreground="#7B7B7B"
+                                                    Text="{Binding Status}" />
+
+                                                <TextBlock
+                                                    Grid.Column="2"
+                                                    HorizontalAlignment="Center"
+                                                    FontSize="14"
+                                                    FontWeight="Regular"
+                                                    Foreground="#7B7B7B"
+                                                    Text="{Binding Value}" />
+                                            </Grid>
+                                            <Border Height="1" Background="#E8E8E8" />
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Статистика">
+                <Grid Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="500*" />
+                        <ColumnDefinition Width="413*" />
+                        <ColumnDefinition Width="50*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*" />
+                            <RowDefinition Height="4*" />
+                        </Grid.RowDefinitions>
+                        <Border
+                            Grid.RowSpan="2"
+                            Margin="30"
+                            Background="#EBF2F9"
+                            CornerRadius="15">
+                            <Grid Grid.RowSpan="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1*" />
+                                    <RowDefinition Height="4*" />
+                                </Grid.RowDefinitions>
+                                <StackPanel
+                                    Grid.Row="0"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Orientation="Horizontal">
+                                    <TextBlock
+                                        Margin="50,0,50,0"
+                                        FontSize="16"
+                                        FontWeight="Bold"
+                                        Foreground="#14395B"
+                                        Text="Дата" />
+                                    <TextBlock
+                                        Margin="50,0,100,0"
+                                        FontSize="16"
+                                        FontWeight="Bold"
+                                        Foreground="#14395B"
+                                        Text="IP адрес" />
+                                    <TextBlock
+                                        Margin="50,0,30,0"
+                                        FontSize="16"
+                                        FontWeight="Bold"
+                                        Foreground="#14395B"
+                                        Text="Время" />
+                                </StackPanel>
+                                <ListView
+                                    Grid.Row="1"
+                                    Margin="20,0,30,20"
+                                    d:ItemsSource="{d:SampleData ItemCount=10}"
+                                    ItemsSource="{Binding Traffic}"
+                                    ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid
+                                                Width="Auto"
+                                                Height="Auto"
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition />
+                                                    <ColumnDefinition />
+                                                    <ColumnDefinition />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock
+                                                    Grid.Column="0"
+                                                    Margin="12,12,45,12"
+                                                    FontSize="14"
+                                                    FontWeight="Medium"
+                                                    Foreground="#14395B"
+                                                    Text="{Binding DateOnly}" />
+                                                <TextBlock
+                                                    Grid.Column="1"
+                                                    Margin="20,12,45,12"
+                                                    FontSize="14"
+                                                    FontWeight="Medium"
+                                                    Foreground="#14395B"
+                                                    Text="{Binding Ip}" />
+                                                <StackPanel
+                                                    Grid.Column="2"
+                                                    Margin="50,12,12,12"
+                                                    Orientation="Horizontal">
+                                                    <TextBlock
+                                                        FontSize="14"
+                                                        FontWeight="Medium"
+                                                        Foreground="#14395B"
+                                                        Text="{Binding UseTimeDuration}" />
+                                                    <TextBlock
+                                                        FontSize="14"
+                                                        FontWeight="Medium"
+                                                        Foreground="#14395B"
+                                                        Text=" мин" />
+                                                </StackPanel>
+                                                <Border
+                                                    Grid.ColumnSpan="3"
+                                                    Width="Auto"
+                                                    Height="1"
+                                                    VerticalAlignment="Bottom"
+                                                    Background="#BEC8D2" />
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                    <ListView.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <StackPanel Background="#F3F6F9" />
+                                        </ItemsPanelTemplate>
+                                    </ListView.ItemsPanel>
+                                </ListView>
+                            </Grid>
+                        </Border>
+                    </Grid>
+
+                    <Border
+                        Grid.Column="1"
+                        Margin="90,30,30,250"
+                        Background="#EBF2F9"
+                        CornerRadius="15">
+                        <StackPanel
+                            Grid.Column="1"
+                            Margin="10"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Center">
+                            <TextBlock
+                                Width="290"
+                                Margin="0,0,0,10"
+                                HorizontalAlignment="Center"
+                                FontSize="20"
+                                FontWeight="Bold"
+                                Foreground="#14395B"
+                                Text="Суммарное время по адресу или дате"
+                                TextAlignment="Center"
+                                TextWrapping="WrapWithOverflow" />
+
+                            <TextBox
+                                Name="UseTimeDurationTextBox"
+                                Padding="4"
+                                materialDesign:HintAssist.Foreground="#A9A9A9"
+                                materialDesign:HintAssist.Hint="Введите IP"
+                                materialDesign:HintAssist.IsFloating="True"
+                                Background="#F3F6F9"
+                                BorderBrush="#BEC8D2"
+                                FontSize="16"
+                                FontWeight="Medium"
+                                Foreground="Black"
+                                Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                                TextChanged="UseTimeDurationTextBox_TextChanged" />
+                            <TextBox
+                                Name="UseTimeDurationTextBox2"
+                                Margin="0,10,0,10"
+                                Padding="4"
+                                materialDesign:HintAssist.Foreground="#A9A9A9"
+                                materialDesign:HintAssist.Hint="Введите дату"
+                                materialDesign:HintAssist.IsFloating="True"
+                                Background="#F3F6F9"
+                                BorderBrush="#BEC8D2"
+                                FontSize="16"
+                                FontWeight="Medium"
+                                Foreground="Black"
+                                Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                                TextChanged="UseTimeDurationTextBox2_TextChanged" />
+                            <Button
+                                Name="GetUseTimeDurationBtn"
+                                Margin="0"
+                                Background="#0c5eaa"
+                                Click="GetUseTimeDurationBtn_Click"
+                                FontSize="20"
+                                FontWeight="Bold">
+                                <Button.Content>
+                                    <TextBlock
+                                        Margin="5"
+                                        Foreground="White"
+                                        Text="Получить итог" />
+                                </Button.Content>
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="Button">
+                                                    <Border Background="{TemplateBinding Background}" CornerRadius="8">
+                                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                    </Border>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+                            <TextBlock
+                                Name="UseTimeDurationTextBlock"
+                                Margin="0,10,0,20"
+                                HorizontalAlignment="Center"
+                                FontSize="24"
+                                FontWeight="SemiBold"
+                                Foreground="#14395B"
+                                Text="Нет результатов" />
+                        </StackPanel>
+                    </Border>
+                    <Border
+                        Grid.Column="1"
+                        Margin="90,300,30,30"
+                        Background="#EBF2F9"
+                        CornerRadius="15">
+                        <ListView
+                            Name="FilteredTrafficListView"
+                            Width="270"
+                            Margin="0,20,0,20"
+                            HorizontalContentAlignment="Center"
+                            d:ItemsSource="{d:SampleData ItemCount=5}"
+                            Background="White">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Width="Auto" Height="25">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition />
+                                            <ColumnDefinition />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock
+                                            HorizontalAlignment="Left"
+                                            Grid.Column="0"
+                                            Margin="40,0,10,0"
+                                            FontSize="12"
+                                            FontWeight="Medium"
+                                            Foreground="#14395B"
+                                            Text="{Binding Key}" />
+                                        <StackPanel
+                                            HorizontalAlignment="Right"
+                                            Grid.Column="1"
+                                            Margin="60,0,10,0"
+                                            Orientation="Horizontal">
+                                            <TextBlock
+                                                FontSize="12"
+                                                FontWeight="Medium"
+                                                Foreground="#14395B"
+                                                Text="{Binding Value}" />
+                                            <TextBlock
+                                                FontSize="12"
+                                                FontWeight="Medium"
+                                                Foreground="#14395B"
+                                                Text=" мин" />
+                                        </StackPanel>
+                                        <Border
+                                            Grid.ColumnSpan="2"
+                                            Width="Auto"
+                                            Height="1"
+                                            VerticalAlignment="Bottom"
+                                            Background="#BEC8D2" />
+                                    </Grid>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                            <ListView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Background="#F3F6F9" />
+                                </ItemsPanelTemplate>
+                            </ListView.ItemsPanel>
+                        </ListView>
+                    </Border>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Админ панель" Visibility="{Binding AdminPanelVisibility}">
+
+                <Grid Margin="0" Background="#0c5eaa">
+                    <TabControl TabStripPlacement="Left">
+                        <TabControl.Resources>
+                            <Style TargetType="TabItem">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="TabItem">
+                                            <Border
+                                                Name="Border"
+                                                Margin="5"
+                                                VerticalAlignment="Center"
+                                                BorderBrush="Gainsboro"
+                                                CornerRadius="5">
+                                                <ContentPresenter
+                                                    x:Name="ContentPresenter"
+                                                    Margin="10"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center">
+                                                    <ContentPresenter.Content>
+                                                        <TextBlock
+                                                            Name="TextBlock"
+                                                            FontSize="14"
+                                                            FontWeight="SemiBold"
+                                                            Text="{TemplateBinding Header}" />
+                                                    </ContentPresenter.Content>
+                                                </ContentPresenter>
+                                            </Border>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsSelected" Value="True">
+                                                    <Setter TargetName="Border" Property="Background" Value="white" />
+                                                    <Setter TargetName="TextBlock" Property="Foreground" Value="Black" />
+
+                                                </Trigger>
+                                                <Trigger Property="IsSelected" Value="False">
+                                                    <Setter TargetName="Border" Property="Background" Value="#0c5eaa" />
+                                                    <Setter TargetName="TextBlock" Property="Foreground" Value="White" />
+                                                </Trigger>
+
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </TabControl.Resources>
+                        <TabItem Margin="5,5,5,5" Header="Создание записей">
+
+                            <Grid Background="White">
+                                <Border
+                                    Margin="250,150,250,170"
+                                    Background="#EBF2F9"
+                                    CornerRadius="15">
+                                    <StackPanel>
+                                        <TextBlock
+                                            Margin="20,15,20,20"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            FontSize="24"
+                                            FontWeight="Bold"
+                                            Foreground="#0C5EAA"
+                                            Text="Создание новой записи" />
+                                        <ComboBox
+                                            Margin="30,15,30,15"
+                                            materialDesign:HintAssist.Hint="Выберите таблицу"
+                                            FontSize="16"
+                                            ItemsSource="{Binding TableNames}"
+                                            SelectedItem="{Binding SelectedTableNameInAddNewRecordTabItem}" />
+                                        <Button
+                                            Name="AddNewRecordBtn"
+                                            Margin="20"
+                                            Background="#0c5eaa"
+                                            Click="AddNewRecordBtn_Click"
+                                            FontSize="16">
+                                            <Button.Content>
+                                                <TextBlock
+                                                    Margin="10,5,10,5"
+                                                    Foreground="White"
+                                                    Text="Перейти к созданию" />
+                                            </Button.Content>
+                                            <Button.Style>
+                                                <Style TargetType="Button">
+                                                    <Setter Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate TargetType="Button">
+                                                                <Border Background="{TemplateBinding Background}" CornerRadius="10">
+                                                                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                                </Border>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </Button.Style>
+                                        </Button>
+                                    </StackPanel>
+
+                                </Border>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Изменение записей">
+                            <Grid Background="White">
+                                <Border
+                                    Margin="50"
+                                    Background="#EBF2F9"
+                                    CornerRadius="15">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="1*" />
+                                            <RowDefinition Height="5*" />
+                                        </Grid.RowDefinitions>
+                                        <StackPanel Orientation="Horizontal">
+                                            <ComboBox
+                                                Margin="30,5,30,15"
+                                                materialDesign:HintAssist.Hint="Название таблицы"
+                                                FontSize="15"
+                                                ItemsSource="{Binding TableNames}"
+                                                SelectedItem="{Binding SelectedTableNameInEditRecordTabItem}" />
+                                            <Button
+                                                Name="EditRecordBtn"
+                                                Width="470"
+                                                Margin="30,20,30,20"
+                                                Background="#0c5eaa"
+                                                Click="EditRecordBtn_Click"
+                                                FontSize="16">
+                                                <Button.Content>
+                                                    <TextBlock
+                                                        Margin="10,0,10,0"
+                                                        Foreground="White"
+                                                        Text="Изменить запись" />
+                                                </Button.Content>
+                                                <Button.Style>
+                                                    <Style TargetType="Button">
+                                                        <Setter Property="Template">
+                                                            <Setter.Value>
+                                                                <ControlTemplate TargetType="Button">
+                                                                    <Border Background="{TemplateBinding Background}" CornerRadius="10">
+                                                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                                    </Border>
+                                                                </ControlTemplate>
+                                                            </Setter.Value>
+                                                        </Setter>
+                                                    </Style>
+                                                </Button.Style>
+                                            </Button>
+                                        </StackPanel>
+
+                                        <DataGrid
+                                            Name="DataGridForEditRecords"
+                                            Grid.Row="1"
+                                            Margin="30,5,30,15"
+                                            materialDesign:DataGridAssist.SelectedCellBorderBrush="#DEDEDF"
+                                            Background="#E8E8E8"
+                                            BorderThickness="1"
+                                            IsReadOnly="True"
+                                            RowDetailsVisibilityMode="Collapsed"
+                                            SelectedItem="{Binding SelectedItemToEdit}"
+                                            SelectionMode="Single"
+                                            SelectionUnit="FullRow" />
+                                    </Grid>
+                                </Border>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Удаление записей">
+                            <Grid Background="White">
+                                <Border
+                                    Margin="50"
+                                    Background="#EBF2F9"
+                                    CornerRadius="15">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="1*" />
+                                            <RowDefinition Height="5*" />
+                                        </Grid.RowDefinitions>
+                                        <StackPanel Orientation="Horizontal">
+                                            <ComboBox
+                                                Margin="30,5,30,15"
+                                                materialDesign:HintAssist.Hint="Название таблицы"
+                                                FontSize="15"
+                                                ItemsSource="{Binding TableNames}"
+                                                SelectedItem="{Binding SelectedTableNameInDeleteRecordTabItem}" />
+                                            <Button
+                                                Name="DeleteRecordBtn"
+                                                Width="470"
+                                                Margin="30,20,30,20"
+                                                Background="#0c5eaa"
+                                                Click="DeleteRecordBtn_Click"
+                                                FontSize="16">
+                                                <Button.Content>
+                                                    <TextBlock
+                                                        Margin="10,0,10,0"
+                                                        Foreground="White"
+                                                        Text="Удалить запись" />
+                                                </Button.Content>
+                                                <Button.Style>
+                                                    <Style TargetType="Button">
+                                                        <Setter Property="Template">
+                                                            <Setter.Value>
+                                                                <ControlTemplate TargetType="Button">
+                                                                    <Border Background="{TemplateBinding Background}" CornerRadius="10">
+                                                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                                    </Border>
+                                                                </ControlTemplate>
+                                                            </Setter.Value>
+                                                        </Setter>
+                                                    </Style>
+                                                </Button.Style>
+                                            </Button>
+                                        </StackPanel>
+
+                                        <DataGrid
+                                            Name="DataGridForDeleteRecords"
+                                            Grid.Row="1"
+                                            Margin="30,5,30,15"
+                                            materialDesign:DataGridAssist.SelectedCellBorderBrush="#DEDEDF"
+                                            Background="#E8E8E8"
+                                            BorderThickness="1"
+                                            IsReadOnly="True"
+                                            RowDetailsVisibilityMode="Collapsed"
+                                            SelectedItem="{Binding SelectedItemToDelete}"
+                                            SelectionMode="Single"
+                                            SelectionUnit="FullRow" />
+                                    </Grid>
+                                </Border>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Добавление таблиц">
+
+                            <Grid Background="White">
+                                <Border
+                                    Margin="150,70,150,70"
+                                    Background="#EBF2F9"
+                                    CornerRadius="15">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1.4*" />
+                                            <ColumnDefinition Width="4*" />
+                                            <ColumnDefinition Width="4*" />
+                                            <ColumnDefinition Width="4*" />
+                                        </Grid.ColumnDefinitions>
+                                        <!--  0 row  -->
+                                        <TextBlock
+                                            Grid.Row="0"
+                                            Grid.ColumnSpan="4"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            FontSize="24"
+                                            FontWeight="Bold"
+                                            Foreground="#0C5EAA"
+                                            Text="Создание таблицы" />
+                                        <!--  1 row  -->
+                                        <TextBox
+                                            Name="TableNameTextBox"
+                                            Grid.Row="1"
+                                            Grid.Column="1"
+                                            Width="Auto"
+                                            VerticalAlignment="Center"
+                                            materialDesign:HintAssist.Hint="Название таблицы " />
+                                        <ComboBox
+                                            Name="CountTableFieldsComboBox"
+                                            Grid.Row="1"
+                                            Grid.Column="2"
+                                            Margin="20,10,20,10"
+                                            materialDesign:HintAssist.Hint="Кол-во полей"
+                                            SelectedItem="{Binding CountTableFiedlsSelectedItem}">
+                                            <ComboBoxItem Name="OneFieldItem">
+                                                <TextBlock Text="2" />
+                                            </ComboBoxItem>
+                                            <ComboBoxItem>
+                                                <TextBlock Text="3" />
+                                            </ComboBoxItem>
+                                            <ComboBoxItem>
+                                                <TextBlock Text="4" />
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                        <!--  2 row  -->
+                                        <RadioButton
+                                            Name="FieldOneRadioBtn"
+                                            Grid.Row="2"
+                                            Grid.Column="0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Content="{materialDesign:PackIcon key}"
+                                            GroupName="isPrimaryKeyRadioGroup" />
+                                        <TextBox
+                                            Name="FieldOneTextBox"
+                                            Grid.Row="2"
+                                            Grid.Column="1"
+                                            Width="Auto"
+                                            VerticalAlignment="Center"
+                                            materialDesign:HintAssist.Hint="Название для 1 поля " />
+                                        <ComboBox
+                                            Name="FieldOneTypeComboBox"
+                                            Grid.Row="2"
+                                            Grid.Column="2"
+                                            Margin="20,10,20,10"
+                                            materialDesign:HintAssist.Hint="Тип для поля 1">
+                                            <ComboBoxItem>
+                                                <TextBlock Text="Строка" />
+                                            </ComboBoxItem>
+                                            <ComboBoxItem>
+                                                <TextBlock Text="Числовое" />
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                        <ComboBox
+                                            Name="FieldOneNullableComboBox"
+                                            Grid.Row="2"
+                                            Grid.Column="3"
+                                            Margin="20,10,20,10"
+                                            materialDesign:HintAssist.Hint="Nullable?">
+                                            <ComboBoxItem>
+                                                <TextBlock Text="nullable" />
+                                            </ComboBoxItem>
+                                            <ComboBoxItem>
+                                                <TextBlock Text="not nullable" />
+                                            </ComboBoxItem>
+                                        </ComboBox>
+
+                                        <!--  3 row  -->
+                                        <RadioButton
+                                            Name="FieldTwoRadioBtn"
+                                            Grid.Row="3"
+                                            Grid.Column="0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Content="{materialDesign:PackIcon key}"
+                                            GroupName="isPrimaryKeyRadioGroup" />
+                                        <TextBox
+                                            Name="FieldTwoTextBox"
+                                            Grid.Row="3"
+                                            Grid.Column="1"
+                                            Width="Auto"
+                                            VerticalAlignment="Center"
+                                            materialDesign:HintAssist.Hint="Название для 2 поля " />
+                                        <ComboBox
+                                            Name="FieldTwoTypeComboBox"
+                                            Grid.Row="3"
+                                            Grid.Column="2"
+                                            Margin="20,10,20,10"
+                                            materialDesign:HintAssist.Hint="Тип поля для 2">
+                                            <ComboBoxItem>
+                                                <TextBlock Text="Строка" />
+                                            </ComboBoxItem>
+                                            <ComboBoxItem>
+                                                <TextBlock Text="Числовое" />
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                        <ComboBox
+                                            Name="FieldTwoNullableComboBox"
+                                            Grid.Row="3"
+                                            Grid.Column="3"
+                                            Margin="20,10,20,10"
+                                            materialDesign:HintAssist.Hint="Nullable?">
+                                            <ComboBoxItem>
+                                                <TextBlock Text="nullable" />
+                                            </ComboBoxItem>
+                                            <ComboBoxItem>
+                                                <TextBlock Text="not nullable" />
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                        <!--  4 row  -->
+                                        <RadioButton
+                                            Name="FieldThreeRadioBtn"
+                                            Grid.Row="4"
+                                            Grid.Column="0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Content="{materialDesign:PackIcon key}"
+                                            GroupName="isPrimaryKeyRadioGroup"
+                                            IsEnabled="False" />
+                                        <TextBox
+                                            Name="FieldThreeTextBox"
+                                            Grid.Row="4"
+                                            Grid.Column="1"
+                                            Width="Auto"
+                                            VerticalAlignment="Center"
+                                            materialDesign:HintAssist.Hint="Название для 3 поля "
+                                            IsEnabled="False" />
+                                        <ComboBox
+                                            Name="FieldThreeTypeComboBox"
+                                            Grid.Row="4"
+                                            Grid.Column="2"
+                                            Margin="20,10,20,10"
+                                            materialDesign:HintAssist.Hint="Тип для поля 3"
+                                            IsEnabled="False">
+                                            <ComboBoxItem>
+                                                <TextBlock Text="Строка" />
+                                            </ComboBoxItem>
+                                            <ComboBoxItem>
+                                                <TextBlock Text="Числовое" />
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                        <ComboBox
+                                            Name="FieldThreeNullableComboBox"
+                                            Grid.Row="4"
+                                            Grid.Column="3"
+                                            Margin="20,10,20,10"
+                                            materialDesign:HintAssist.Hint="Nullable?"
+                                            IsEnabled="False">
+                                            <ComboBoxItem>
+                                                <TextBlock Text="nullable" />
+                                            </ComboBoxItem>
+                                            <ComboBoxItem>
+                                                <TextBlock Text="not nullable" />
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                        <!--  5 row  -->
+                                        <RadioButton
+                                            Name="FieldFourRadioBtn"
+                                            Grid.Row="5"
+                                            Grid.Column="0"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Content="{materialDesign:PackIcon key}"
+                                            GroupName="isPrimaryKeyRadioGroup"
+                                            IsEnabled="False" />
+                                        <TextBox
+                                            Name="FieldFourTextBox"
+                                            Grid.Row="5"
+                                            Grid.Column="1"
+                                            Width="Auto"
+                                            VerticalAlignment="Center"
+                                            materialDesign:HintAssist.Hint="Название для 4 поля "
+                                            IsEnabled="False" />
+                                        <ComboBox
+                                            Name="FieldFourTypeComboBox"
+                                            Grid.Row="5"
+                                            Grid.Column="2"
+                                            Margin="20,10,20,10"
+                                            materialDesign:HintAssist.Hint="Тип для поля 4"
+                                            IsEnabled="False">
+                                            <ComboBoxItem>
+                                                <TextBlock Text="Строка" />
+                                            </ComboBoxItem>
+                                            <ComboBoxItem>
+                                                <TextBlock Text="Числовое" />
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                        <ComboBox
+                                            Name="FieldFourNullableComboBox"
+                                            Grid.Row="5"
+                                            Grid.Column="3"
+                                            Margin="20,10,20,10"
+                                            materialDesign:HintAssist.Hint="Nullable?"
+                                            IsEnabled="False">
+                                            <ComboBoxItem>
+                                                <TextBlock Text="nullable" />
+                                            </ComboBoxItem>
+                                            <ComboBoxItem>
+                                                <TextBlock Text="not nullable" />
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                        <!--  6 row  -->
+                                        <TextBlock
+                                            Grid.Row="6"
+                                            Grid.Column="2"
+                                            HorizontalAlignment="Right"
+                                            VerticalAlignment="Center"
+                                            FontSize="17"
+                                            Text="Связать с" />
+                                        <ComboBox
+                                            Name="BindingTableComboBox"
+                                            Grid.Row="6"
+                                            Grid.Column="3"
+                                            Margin="20,10,10,10"
+                                            materialDesign:HintAssist.Hint="Название таблицы"
+                                            IsEnabled="False"
+                                            ItemsSource="{Binding TableNames}" />
+
+                                        <!--  7 row  -->
+                                        <Button
+                                            Name="CreateTableBtn"
+                                            Grid.Row="7"
+                                            Grid.Column="1"
+                                            Grid.ColumnSpan="3"
+                                            Margin="20,10,60,10"
+                                            Background="#0c5eaa"
+                                            Click="CreateTableBtn_Click"
+                                            FontSize="16">
+                                            <Button.Content>
+                                                <TextBlock
+                                                    Margin="10,0,10,0"
+                                                    Foreground="White"
+                                                    Text="Создать" />
+                                            </Button.Content>
+                                            <Button.Style>
+                                                <Style TargetType="Button">
+                                                    <Setter Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate TargetType="Button">
+                                                                <Border Background="{TemplateBinding Background}" CornerRadius="10">
+                                                                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                                </Border>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </Button.Style>
+                                        </Button>
+                                    </Grid>
+                                </Border>
+                            </Grid>
+
+
+                        </TabItem>
+                        <TabItem Header="Удаление таблиц">
+                            <Grid Background="White">
+                                <Border
+                                    Margin="250,150,250,170"
+                                    Background="#EBF2F9"
+                                    CornerRadius="15">
+                                    <StackPanel>
+                                        <TextBlock
+                                            Margin="20,15,20,20"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            FontSize="24"
+                                            FontWeight="Bold"
+                                            Foreground="#0C5EAA"
+                                            Text="Удаление таблицы" />
+                                        <ComboBox
+                                            Margin="30,15,30,15"
+                                            materialDesign:HintAssist.Hint="Выберите таблицу"
+                                            FontSize="16"
+                                            ItemsSource="{Binding TableNames}"
+                                            SelectedItem="{Binding SelectedTableNameInDeleteTableTabItem}" />
+                                        <Button
+                                            Name="DeleteTableBtn"
+                                            Margin="20"
+                                            Background="#0c5eaa"
+                                            Click="DeleteTableBtn_Click"
+                                            FontSize="16">
+                                            <Button.Content>
+                                                <TextBlock
+                                                    Margin="10,5,10,5"
+                                                    Foreground="White"
+                                                    Text="Удалить" />
+                                            </Button.Content>
+                                            <Button.Style>
+                                                <Style TargetType="Button">
+                                                    <Setter Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate TargetType="Button">
+                                                                <Border Background="{TemplateBinding Background}" CornerRadius="10">
+                                                                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                                </Border>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </Button.Style>
+                                        </Button>
+                                    </StackPanel>
+
+                                </Border>
+                            </Grid>
+                        </TabItem>
+
+                    </TabControl>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+        <Button
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Content="Выйти"
+            Style="{StaticResource MaterialDesignFlatDarkButton}" />
+    </Grid>
+</Window>

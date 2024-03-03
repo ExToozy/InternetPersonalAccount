@@ -1,0 +1,398 @@
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\ViewLayer.exe.config
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\ViewLayer.exe
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\ViewLayer.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer.csproj.AssemblyReference.cache
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\Views\LoginView.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\App.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer_MarkupCompile.cache
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer_MarkupCompile.lref
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\App.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\Views\LoginView.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer.g.resources
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer.Properties.Resources.resources
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer.csproj.GenerateResource.cache
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer.csproj.CoreCompileInputs.cache
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer.exe
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\MaterialDesignColors.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\MaterialDesignColors.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer.csproj.CopyComplete
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\Views\MainMenuAccountView.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\Views\MainMenuAccountView.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\Views\RegistrationView.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\Views\RegistrationView.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Dapper.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Dapper.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\CommonServiceLocator.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Azure.Core.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Azure.Identity.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Assessment.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Assessment.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrData.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrModel.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.Notebook.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Buffers.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Memory.Data.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Memory.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Security.AccessControl.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Security.Permissions.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Text.Json.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.ValueTuple.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Azure.Core.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Azure.Identity.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Assessment.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.ConnectionInfo.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll.config
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.Common.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Assessment.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Assessment.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Collector.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrData.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrData.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrModel.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrModel.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEvent.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.PolicyEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.RegSvrEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.Notebook.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.Notebook.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.SmoExtended.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlClrProvider.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.WmiEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Buffers.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Memory.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Memory.Data.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Security.AccessControl.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Security.Permissions.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Text.Json.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\System.ValueTuple.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer.csproj.SuggestedBindingRedirects.cache
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\ViewLayer.exe.config
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\Views\AddNewDBRecordView.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\Views\EditDBRecordView.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\Views\AddNewDBRecordView.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount\ViewLayer\obj\Debug\Views\EditDBRecordView.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\ViewLayer.exe.config
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\ViewLayer.exe
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\ViewLayer.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Azure.Core.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Azure.Identity.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\CommonServiceLocator.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Dapper.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\MaterialDesignColors.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Assessment.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Assessment.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrData.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrModel.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.Notebook.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Buffers.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Memory.Data.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Memory.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Security.AccessControl.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Security.Permissions.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Text.Json.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.ValueTuple.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Azure.Core.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Azure.Identity.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Dapper.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\MaterialDesignColors.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Data.Tools.Sql.BatchParser.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Assessment.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.ConnectionInfo.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll.config
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.Common.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Assessment.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Assessment.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Collector.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrData.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrData.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrModel.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.HadrModel.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.SqlScriptPublish.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEvent.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.PolicyEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.RegSvrEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.Notebook.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.Smo.Notebook.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.SmoExtended.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlClrProvider.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.WmiEnum.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Buffers.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Memory.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Memory.Data.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Security.AccessControl.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Security.Permissions.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Text.Json.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\System.ValueTuple.xml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer.csproj.AssemblyReference.cache
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer.csproj.SuggestedBindingRedirects.cache
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer.exe.config
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\Views\AddNewDBRecordView.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\Views\EditDBRecordView.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\Views\LoginView.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\Views\MainMenuAccountView.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\Views\RegistrationView.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\App.g.cs
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer_MarkupCompile.cache
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer_MarkupCompile.lref
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\App.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\Views\AddNewDBRecordView.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\Views\EditDBRecordView.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\Views\LoginView.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\Views\MainMenuAccountView.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\Views\RegistrationView.baml
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer.g.resources
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer.Properties.Resources.resources
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer.csproj.GenerateResource.cache
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer.csproj.CoreCompileInputs.cache
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer.csproj.CopyComplete
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer.exe
+C:\Users\ilya\source\repos\InternetPersonalAccount — копия\ViewLayer\obj\Debug\ViewLayer.pdb
